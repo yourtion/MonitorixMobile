@@ -14,9 +14,10 @@
 <body>
 <?php
 include_once 'config.php';
+define('VERSION', '0.3');
 ?>
 <div data-role="page" data-theme="<?php echo $theme ?>" data-add-back-btn="true">
 	<div data-role="header" data-theme="<?php echo $theme ?>">
 		<a data-icon="arrow-l" data-role="button" href="index.php" data-transition="slide" data-theme="<?php echo $theme ?>" >Back</a>
-		<h1><?php echo HOST ?> @ MonitorixMobile v<?php echo VERSION ?></h1>
+		<h1><?php echo HOST ?></h1>
 	</div>
