@@ -1,0 +1,30 @@
+<?php
+define('HOST', 'HOST');//Example: yourdomain.com without http:// and /monitorix
+define('THEME', 'black');//options: black (default), blue, white, yellow and grey
+define('PATH', '/monitorix');//Your monitorix path default /monitorix without the last /
+define('USER', '');
+define('PASSWD', '');
+define('VERSION', '0.1');
+
+switch (THEME) {
+	case 'black':
+		$theme = 'a'; break;
+	case 'blue':
+		$theme = 'b'; break;
+	case 'white':
+		$theme = 'c'; break;
+	case 'grey':
+		$theme = 'd'; break;
+	case 'yellow':
+		$theme = 'e'; break;
+	default:
+		$theme = 'a';
+}
+
+function imgurl($image){
+	if(UESR != "" and PASSWD !=""){
+		return "http://".USER.":".PASSWD."@".HOST.PATH."/imgs/".$image;
+	}else{
+	 return "http://".HOST.PATH."/imgs/".$image;
+	}
+}

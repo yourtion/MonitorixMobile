@@ -1,0 +1,12 @@
+{
+	"system":{
+		"System laod":"system1z.1day.png",
+		"Active processes":"system2z.1day.png",
+		"Memory allocaltion":"system3z.1day.png"
+	},
+	"kernel":{
+		"Kernel usage":"kern1z.1day.png",
+		"Content switches and focks":"kern2z.1day.png",
+		"VFS usage":"kern2z.1day.png"
+	}
+}
