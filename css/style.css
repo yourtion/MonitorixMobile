@@ -16,3 +16,8 @@ img{
 	width: 90;
 	margin: 10px auto;
 }
+#footer{
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
