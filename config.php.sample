@@ -4,7 +4,7 @@ define('THEME', 'black');//options: black (default), blue, white, yellow and gre
 define('PATH', '/monitorix');//Your monitorix path default /monitorix without the last /
 define('USER', '');
 define('PASSWD', '');
-define('VERSION', '0.1');
+define('VERSION', '0.2');
 
 switch (THEME) {
 	case 'black':
