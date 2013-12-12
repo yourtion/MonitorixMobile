@@ -14,7 +14,7 @@
 <body>
 <?php
 include_once 'config.php';
-define('VERSION', '0.3');
+define('VERSION', '0.4');
 ?>
 <div data-role="page" data-theme="<?php echo $theme ?>" data-add-back-btn="true">
 	<div data-role="header" data-theme="<?php echo $theme ?>">

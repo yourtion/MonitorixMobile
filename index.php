@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <div data-role="content">
-	<ul id="dList" data-role="listview">
+	<ul id="dList" data-role="listview" data-dom-cache="true">
 	</ul>
 </div>
 <script type="text/javascript">

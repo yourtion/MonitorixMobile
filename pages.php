@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <div data-role="content">
-	<dl id="mList">
+	<dl id="mList" data-dom-cache="true">
 	</dl>
 </div>
 <script type="text/javascript">
