@@ -1,0 +1,91 @@
+{
+	"system": [
+		"System load average",
+		{
+			"System laod": "system1z.1month.png",
+			"Active processes": "system2z.1month.png",
+			"Memory allocaltion": "system3z.1month.png"
+		}
+	],
+	"kernel": [
+		"Global kernel usage",
+		{
+			"Kernel usage": "kern1z.1month.png",
+			"Content switches and focks": "kern2z.1month.png",
+			"VFS usage": "kern2z.1month.png"
+		}
+	],
+	"processor": [
+		"Kernel usage per processor",
+		{
+			"Processor 0": "proc0z.1month.png",
+			"Processor 1": "proc1z.1month.png"
+		}
+	],
+	"fs1": [
+		"FS usage and I/O activity 1",
+		{
+			"Filesystem usage": "fs01z.1month.png",
+			"Disk I/O active": "fs02z.1month.png",
+			"Time spent in I/O activeDisk": "fs02z.1month.png"
+		}
+	],
+	"fs2": [
+		"FS usage and I/O activity 2",
+		{
+			"Filesystem usage": "fs11z.1month.png",
+			"Disk I/O active": "fs12z.1month.png",
+			"Time spent in I/O activeDisk": "fs12z.1month.png"
+		}
+	],
+	"eth0": [
+		"eth0 Network traffic and usage",
+		{
+			"Traffic": "net01z.1month.png",
+			"Network packets": "net02z.1month.png",
+			"Network errors": "net03z.1month.png"
+		}
+	],
+	"eth1": [
+		"eth1 Network traffic and usage",
+		{
+			"Traffic": "net11z.1month.png",
+			"Network packets": "net12z.1month.png",
+			"Network errors": "net13z.1month.png"
+		}
+	],
+	"network": [
+		"Network port traffic",
+		{
+			"IN-HTTP traffic": "port2iz.1month.png",
+			"IN-SSH traffic": "port3iz.1month.png",
+			"IN-MySQL traffic": "port6iz.1month.png"
+		}
+	],
+	"nginx": [
+		"Nginx statistics",
+		{
+			"Nginx Connections": "nginx1z.1month.png",
+			"Nginx requests": "nginx2z.1month.png",
+			"Nginx traffic": "nginx3z.1month.png"
+		}
+	],
+	"mysql": [
+		"MySQL statistics",
+		{
+			"Mysql querty typrs": "mysql01z.1month.png",
+			"MySQL overall stats": "mysql02z.1month.png",
+			"Table saturation and MyISAM": "mysql03z.1month.png",
+			"Table queries": "mysql04z.1month.png",
+			"MySQL connections": "mysql05z.1month.png",
+			"MySQL traffic": "mysql06z.1month.png"
+		}
+	],
+	"devices": [
+		"Devices interrupt activity",
+		{
+			"Interrupt activity": "int3z.1month.png",
+			"Core activity": "int2z.1month.png"
+		}
+	]
+}
